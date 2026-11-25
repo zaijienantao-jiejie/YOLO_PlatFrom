@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 运行时数据
+logs/
+workspace/
+config/config.yaml
+runs/
+*.log
+
+# 模型权重（可自动下载，不入库）
+*.pt
+*.onnx
+*.engine
+
+# 系统
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
