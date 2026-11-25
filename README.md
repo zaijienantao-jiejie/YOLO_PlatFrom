@@ -7,8 +7,7 @@
 | 文档名称 | YOLO Platform V2.0 项目说明 |
 | 版本号 | v2.0.0 |
 | 编写日期 | 2026-04-22 |
-| 编写人 | FongSeungyen |
-| 项目主页 | [https://github.com/FongSeungyen/YOLO_Platform](https://github.com/FongSeungyen/YOLO_Platform) |
+| 项目主页 | （请填写你自己的仓库地址） |
 
 ---
 
@@ -164,7 +163,7 @@ YOLO Platform V2.0 是一款面向工业级应用的全功能计算机视觉开�
 #### 1. 克隆仓库
 
 ```bash
-git clone https://github.com/FongSeungyen/YOLO_Platform.git
+git clone <你的仓库地址>  # 替换为你自己的仓库
 cd YOLO_Platform
 ```
 
@@ -450,9 +449,9 @@ pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
 
 | 方式 | 信息 |
 |------|------|
-| 项目主页 | [https://github.com/FongSeungyen/YOLO_Platform](https://github.com/FongSeungyen/YOLO_Platform) |
-| 问题反馈 | [https://github.com/FongSeungyen/YOLO_Platform/issues](https://github.com/FongSeungyen/YOLO_Platform/issues) |
-| 技术支持邮箱 | fongseungyen@gmail.com |
+| 项目主页 | （请填写你自己的仓库地址） |
+| 问题反馈 | （请填写你自己的仓库地址） |
+| 技术支持邮箱 | （请填写你的邮箱） |
 
 ---
 
@@ -467,7 +466,7 @@ pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
 
 **文档结束**
 
-*本文档由 YOLO Platform 技术开发者FongSeungyen编写，遵循 MIT 开源协议。*
+*本文档遵循 MIT 开源协议。*
 
 *最后更新：2026-04-22*
 
@@ -476,6 +475,5 @@ pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
 
 ---
 
-© 2026 FongSeungyen. All Rights Reserved.
 <img width="3200" height="3600" alt="QR Code" src="https://github.com/user-attachments/assets/366e7a06-225c-40e9-ac26-f4f0416c5be3" />
 

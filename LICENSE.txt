@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2026 FongSeungyen
+Copyright (c) 2026 YOLO Platform
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -25,7 +25,7 @@ SOFTWARE.
 YOLO Platform V2.0 - 一体化人工智能视觉平台
 一体化人工智能开发平台
 
-项目主页：https://github.com/FongSeungyen/YOLO_Platform
+项目主页：（请填写你自己的仓库地址）
 
 ================================================================================
 
@@ -80,6 +80,5 @@ MIT 许可证授予任何人免费获得本软件及相关文档文件（"软件
 
 ================================================================================
 
-© 2026 FongSeungyen. All Rights Reserved.
 
 最后更新：2026-04-22
