@@ -45,7 +45,7 @@ python main.py
 4. **不要**勾选 "Add a README file"（保持空仓库）
 5. 点 **Create repository**
 6. 创建完成后页面会显示仓库地址，形如：
-   `https://github.com/<你的用户名>/YOLO_Platform.git` —— 记下这行
+   `https://github.com/zaijienantao-jiejie/YOLO_Platform.git` —— 记下这行
 
 ### 第 3 步：在本地提交代码并推送
 
@@ -58,8 +58,8 @@ git add .
 # 2) 提交（首次提交）
 git commit -m "实现 YOLO Platform V2.0 完整功能"
 
-# 3) 把远程地址从原作者仓库换成你自己的仓库（把 <你的用户名> 换成第 2 步的名字）
-git remote set-url origin https://github.com/<你的用户名>/YOLO_Platform.git
+# 3) 把远程地址从原作者仓库换成你自己的仓库（把 zaijienantao-jiejie 换成第 2 步的名字）
+git remote add origin https://github.com/zaijienantao-jiejie/YOLO_Platform.git
 
 # 4) 推送
 git push -u origin main
@@ -105,7 +105,7 @@ git push
 **代码**：在 AutoDL 的 JupyterLab 终端里执行：
 
 ```bash
-git clone https://github.com/<你的用户名>/YOLO_Platform.git
+git clone https://github.com/zaijienantao-jiejie/YOLO_Platform.git
 ```
 
 **数据集**（两种方式任选）：
