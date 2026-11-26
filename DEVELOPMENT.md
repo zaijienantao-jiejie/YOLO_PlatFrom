@@ -134,10 +134,14 @@ conda create -n yolo python=3.10 -y
 conda activate yolo
 
 # 安装 GPU 版 PyTorch（CUDA 12.4）
+# 提示：AutoDL 镜像若已自带 PyTorch（python -c "import torch" 不报错），可跳过这行
 pip install torch==2.6.0 torchvision==0.21.0 torchaudio==2.6.0 --index-url https://download.pytorch.org/whl/cu124
 
-# 安装其余依赖（用国内镜像加速）
-pip install -r requirements-gpu.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
+# 精简安装：命令行训练只需要 ultralytics（自动带上 numpy/opencv/pyyaml 等）
+pip install ultralytics -i https://pypi.tuna.tsinghua.edu.cn/simple
+
+# 完整安装（含界面库 PySide6 等；服务器上不跑界面时非必需）
+# pip install -r requirements-gpu.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
 ```
 
 ### 第 5 步：确认数据集与 GPU 正常
@@ -164,7 +168,7 @@ python train_cli.py --dataset 药材分类导入测试 --model yolo11n-cls --res
 
 训练过程中会实时打印每个 epoch 的损失/精度。训练完输出：
 
-```
+``` 
 训练完成！
   最佳模型: ~/YOLO_Platform/workspace/models/train_yolo11n-cls/weights/best.pt
 ```
@@ -186,6 +190,7 @@ AutoDL 按小时计费，训练完务必到控制台点 **"关机"**（关机后
 | 问题 | 解决 |
 |------|------|
 | pip 下载慢 | 命令加 `-i https://pypi.tuna.tsinghua.edu.cn/simple` |
+| `ModuleNotFoundError: No module named 'PySide6'` | 命令行训练不需要 PySide6。更新代码到最新版（`git pull`）后重试；只需安装 ultralytics 即可 |
 | 预训练模型下载慢 | 把本地 `workspace/models/pretrained/*.pt` 一起传到 AutoDL 的对应目录，训练时自动使用本地模型 |
 | git clone 失败 | 确认仓库是 Private 时需要先配置 token 或用 SSH 地址 |
 | 想跑 GUI | AutoDL 可租"桌面版镜像"或使用 JupyterLab 的图形界面功能；训练用 `train_cli.py` 即可 |

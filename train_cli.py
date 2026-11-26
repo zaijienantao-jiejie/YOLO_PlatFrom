@@ -24,7 +24,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from core import logger as logger_mod
 from core.config import ConfigManager
 from core.dependencies import torch_device_info
-from services.training_service import run_training, ensure_task_suffix
+from services.train_core import run_training, ensure_task_suffix
 
 
 def main():
