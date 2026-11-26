@@ -7,7 +7,7 @@
 | 文档名称 | YOLO Platform V2.0 项目说明 |
 | 版本号 | v2.0.0 |
 | 编写日期 | 2026-04-22 |
-| 项目主页 | （请填写你自己的仓库地址） |
+| 项目主页 | https://github.com/zaijienantao-jiejie/YOLO_PlatFrom.git |
 
 ---
 
