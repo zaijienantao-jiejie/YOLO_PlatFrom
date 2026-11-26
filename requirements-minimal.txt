@@ -1,0 +1,9 @@
+# YOLO Platform V2.0 - minimal dependencies (UI + dataset management only)
+# Training / evaluation / AI annotation / deployment are disabled with this install.
+PySide6>=6.8.0
+opencv-python>=4.9.0
+Pillow>=10.0.0
+numpy>=1.26.0
+PyYAML>=6.0
+werkzeug>=3.0.0
+psutil>=5.9.0

@@ -1,0 +1,84 @@
+MIT License
+
+Copyright (c) 2026 YOLO Platform
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+================================================================================
+
+YOLO Platform V2.0 - 一体化人工智能视觉平台
+一体化人工智能开发平台
+
+项目主页：https://github.com/zaijienantao-jiejie/YOLO_Platform
+
+================================================================================
+
+第三方开源组件声明：
+
+本软件使用了以下开源组件，各组件的许可证请参见其官方文档：
+
+1. PySide6 (Qt for Python)
+   许可证：LGPL v3 / GPL v3
+   主页：https://doc.qt.io/qtforpython/
+
+2. PyTorch
+   许可证：BSD 3-Clause
+   主页：https://pytorch.org/
+
+3. Ultralytics YOLO
+   许可证：AGPL-3.0
+   主页：https://github.com/ultralytics/ultralytics
+
+4. OpenCV
+   许可证：Apache 2.0
+   主页：https://opencv.org/
+
+5. FastAPI
+   许可证：MIT
+   主页：https://fastapi.tiangolo.com/
+
+6. NumPy
+   许可证：BSD 3-Clause
+   主页：https://numpy.org/
+
+7. Matplotlib
+   许可证：PSF-based
+   主页：https://matplotlib.org/
+
+================================================================================
+
+中文说明：
+
+MIT 许可证授予任何人免费获得本软件及相关文档文件（"软件"）的副本，
+可以无限制地处理本软件，包括但不限于使用、复制、修改、合并、发布、
+分发、再许可和/或销售软件副本的权利，并允许向其提供软件的人这样做，
+但须符合以下条件：
+
+上述版权声明和本许可声明应包含在本软件的所有副本或实质性部分中。
+
+本软件按"原样"提供，不提供任何形式的明示或暗示担保，包括但不限于对
+适销性、特定用途的适用性和非侵权性的担保。在任何情况下，作者或版权
+持有人均不对任何索赔、损害或其他责任负责，无论是在合同诉讼、侵权
+诉讼或其他诉讼中，还是因本软件或本软件的使用或其他交易而产生、
+引起或与之相关的索赔、损害或其他责任。
+
+================================================================================
+
+
+最后更新：2026-11-26
