@@ -207,7 +207,7 @@ class TrainingWidget(QWidget):
                 if "train" not in counts:
                     msg_error(self, "划分失败", "训练集为空，请检查划分比例")
                     return
-            yaml_path = ds.build_yaml()
+            data_path = ds.training_data_path()
         except Exception as e:
             msg_error(self, "数据准备失败", str(e))
             return
@@ -228,7 +228,7 @@ class TrainingWidget(QWidget):
         self.ctx.activity.log("开始训练", ds.name, f"模型: {model_name}, epochs: {params['epochs']}",
                               actor=self.ctx.auth.current_username)
         self.worker = TrainingWorker(
-            data_yaml=str(yaml_path), model_name=model_name, params=params,
+            data_yaml=str(data_path), model_name=model_name, params=params,
             project=str(self.ctx.cm.models_root), device=self.device_combo.currentData(),
             resume=self.resume_check.isChecked(),
             pretrained_dir=str(self.ctx.cm.models_root / "pretrained"))

@@ -30,7 +30,7 @@ from services.train_core import run_training, ensure_task_suffix
 def main():
     ap = argparse.ArgumentParser(description="YOLO Platform 命令行训练")
     ap.add_argument("--dataset", help="平台数据集名称（workspace/datasets 下）")
-    ap.add_argument("--data", help="或直接指定 data.yaml 路径")
+    ap.add_argument("--data", help="或直接指定 data.yaml 路径（分类任务请指定目录）")
     ap.add_argument("--model", default=None, help="模型名，如 yolo11n / yolo11n-cls / yolo11s（--list-datasets 时不需要）")
     ap.add_argument("--task", default=None,
                     help="任务类型 detect/segment/pose/obb/classify（--data 时按模型名推断不了才需要）")
@@ -73,7 +73,7 @@ def main():
         if ds.task != "classify":
             counts = ds.generate_splits()
             print(f"数据划分: {counts}")
-        data_yaml = str(ds.build_yaml())
+        data_yaml = ds.training_data_path()
         task = ds.task
     elif args.data:
         data_yaml = args.data

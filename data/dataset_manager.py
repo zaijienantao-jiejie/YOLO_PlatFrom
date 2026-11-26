@@ -277,6 +277,14 @@ class Dataset:
         self._touch()
         return counts
 
+    def training_data_path(self) -> str:
+        """返回可直接传给 ultralytics 的 data 参数：
+        分类任务为图像目录（ultralytics 要求目录，自动使用其中 train/val 子目录），
+        其余任务为生成的 data.yaml 路径。"""
+        if self.task == "classify":
+            return str(self.images_dir)
+        return str(self.build_yaml())
+
     def build_yaml(self, split_names=("train", "val")) -> Path:
         """生成 ultralytics 训练用 data.yaml，返回路径"""
         lines = [f"path: {self.root.as_posix()}"]

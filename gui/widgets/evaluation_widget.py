@@ -109,7 +109,7 @@ class EvaluationWidget(QWidget):
                 if "val" not in counts:
                     msg_error(self, "划分失败", "验证集为空，请调整划分比例后重试")
                     return
-            yaml_path = ds.build_yaml()
+            yaml_path = ds.training_data_path()
         except Exception as e:
             msg_error(self, "数据准备失败", str(e))
             return
