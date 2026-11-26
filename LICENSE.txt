@@ -25,7 +25,7 @@ SOFTWARE.
 YOLO Platform V2.0 - 一体化人工智能视觉平台
 一体化人工智能开发平台
 
-项目主页：https://github.com/zaijienantao-jiejie/YOLO_Platform
+项目主页：https://github.com/zaijienantao-jiejie/YOLO_PlatFrom
 
 ================================================================================
 

@@ -45,7 +45,7 @@ python main.py
 4. **不要**勾选 "Add a README file"（保持空仓库）
 5. 点 **Create repository**
 6. 创建完成后页面会显示仓库地址，形如：
-   `https://github.com/zaijienantao-jiejie/YOLO_Platform.git` —— 记下这行
+   `https://github.com/zaijienantao-jiejie/YOLO_PlatFrom.git` —— 记下这行
 
 ### 第 3 步：在本地提交代码并推送
 
@@ -59,7 +59,7 @@ git add .
 git commit -m "实现 YOLO Platform V2.0 完整功能"
 
 # 3) 把远程地址从原作者仓库换成你自己的仓库（把 zaijienantao-jiejie 换成第 2 步的名字）
-git remote add origin https://github.com/zaijienantao-jiejie/YOLO_Platform.git
+git remote add origin https://github.com/zaijienantao-jiejie/YOLO_PlatFrom.git
 
 # 4) 推送
 git push -u origin main
@@ -105,7 +105,7 @@ git push
 **代码**：在 AutoDL 的 JupyterLab 终端里执行：
 
 ```bash
-git clone https://github.com/zaijienantao-jiejie/YOLO_Platform.git
+git clone https://github.com/zaijienantao-jiejie/YOLO_PlatFrom.git
 ```
 
 **数据集**（两种方式任选）：
@@ -114,10 +114,10 @@ git clone https://github.com/zaijienantao-jiejie/YOLO_Platform.git
   `workspace/datasets/药材分类导入测试/` 整个文件夹 → 上传完后在实例里挂载网盘，
   把文件夹移动到项目里：
   ```bash
-  mv ~/autodl-tmp/药材分类导入测试 ~/YOLO_Platform/workspace/datasets/
+  mv ~/autodl-tmp/药材分类导入测试 ~/autodl-tmp/YOLO_PlatFrom/workspace/datasets/
   ```
 - **方式 B（文件不大时）**：直接在 JupyterLab 左侧文件树把本地文件夹拖拽上传到
-  `~/YOLO_Platform/workspace/datasets/`
+  `~/autodl-tmp/YOLO_PlatFrom/workspace/datasets/`
 
 > 平台数据集 = 一个包含 `dataset.json`、`images/`、`labels/` 的文件夹，整个文件夹传过去即可，
 > 平台能直接识别。也可以把原始数据集传上去后，用平台代码重新导入。
@@ -127,7 +127,7 @@ git clone https://github.com/zaijienantao-jiejie/YOLO_Platform.git
 在 AutoDL 终端（JupyterLab 里）：
 
 ```bash
-cd ~/YOLO_Platform
+cd ~/autodl-tmp/YOLO_PlatFrom
 
 # 创建虚拟环境
 conda create -n yolo python=3.10 -y
@@ -170,7 +170,7 @@ python train_cli.py --dataset 药材分类导入测试 --model yolo11n-cls --res
 
 ``` 
 训练完成！
-  最佳模型: ~/YOLO_Platform/workspace/models/train_yolo11n-cls/weights/best.pt
+  最佳模型: ~/autodl-tmp/YOLO_PlatFrom/workspace/models/train_yolo11n-cls/weights/best.pt
 ```
 
 ### 第 7 步：把训练结果拿回本地

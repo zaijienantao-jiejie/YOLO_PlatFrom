@@ -8,7 +8,7 @@
 | 版本号 | v2.0.0 |
 | 编写日期 | 2026-04-22 |
 | 编写人 | zaijienantao-jiejie |
-| 项目主页 | https://github.com/zaijienantao-jiejie/YOLO_Platform |
+| 项目主页 | https://github.com/zaijienantao-jiejie/YOLO_PlatFrom |
 
 ---
 
@@ -164,8 +164,8 @@ YOLO Platform V2.0 是一款面向工业级应用的全功能计算机视觉开�
 #### 1. 克隆仓库
 
 ```bash
-git clone https://github.com/zaijienantao-jiejie/YOLO_Platform.git
-cd YOLO_Platform
+git clone https://github.com/zaijienantao-jiejie/YOLO_PlatFrom.git
+cd YOLO_PlatFrom
 ```
 
 #### 2. 创建虚拟环境（推荐Python 3.10）
@@ -450,8 +450,8 @@ pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
 
 | 方式 | 信息 |
 |------|------|
-| 项目主页 | https://github.com/zaijienantao-jiejie/YOLO_Platform |
-| 问题反馈 | https://github.com/zaijienantao-jiejie/YOLO_Platform/issues |
+| 项目主页 | https://github.com/zaijienantao-jiejie/YOLO_PlatFrom |
+| 问题反馈 | https://github.com/zaijienantao-jiejie/YOLO_PlatFrom/issues |
 | 技术支持邮箱 | zaijienantao-jiejie（GitHub） |
 
 ---
